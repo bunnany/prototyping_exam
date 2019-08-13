@@ -1,12 +1,12 @@
 ##
 # prototyping_exam_BNY.py
 # Exam tracker prototype for AS91611
-# version 0.0
+# version 0.01
 
-def func_a():
-    """ Work to come here """
-    pass
+def func_a(x):
+    """ Return the parameter squared """
+    return x**2
 
 if __name__ == "__main__":
     print("Hey friends, lets get started")
-    func_a()
+    print(func_a(7))
